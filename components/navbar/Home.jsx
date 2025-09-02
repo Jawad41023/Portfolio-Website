@@ -35,7 +35,7 @@ const Home = () => {
             FRONT-END WEB DEVELOPER
           </h2>
 
-          <p className="text-gray-700 leading-relaxed text-[15px] sm:text-[15px] md:text-[12px] mb-6">
+          <p className="text-gray-700 leading-relaxed text-[15px] sm:text-[15px] md:text-[18px] mb-6">
             I specialize in creating{" "}
             <span className="font-semibold">modern, responsive, and user-friendly web applications</span>{" "}
             using <span className="font-semibold">HTML, CSS, JavaScript, and React.js</span>.
@@ -53,7 +53,7 @@ const Home = () => {
             <a
               href="/JAWAD_CV.pdf"
               download="JAWAD_CV.pdf"
-              className="group inline-flex items-center gap-2 md:bg-gray-700 text-gray-400 font-semibold px-5 py-1 rounded-3xl text-sm sm:text-base
+              className="group inline-flex items-center gap-2 bg-gray-700 text-gray-400 font-semibold px-5 py-1 rounded-3xl text-sm sm:text-base
                hover:text-gray-500 hover:scale-101 transition-all duration-300 active:bg-cyan-800"
             >
               {/* Animated Download Icon */}

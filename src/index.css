@@ -1,0 +1,17 @@
+@import "tailwindcss";
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif,Poppins;
+}
+#Logo{
+background-image: url('../assests/Logo.png');
+}
+#name{
+  font-family: 'Courier New', Courier, monospace
+}
+#jawadpic{
+  
+  background-image: url('../assests/jawad-pic.jpg');
+}
+#jawadpic.img{
+  background-position: fix;
+}

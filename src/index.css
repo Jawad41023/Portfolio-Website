@@ -15,3 +15,23 @@ background-image: url('../assests/Logo.png');
 #jawadpic.img{
   background-position: fix;
 }
+
+/* Slide in the whole page from left */
+@keyframes slideIn {
+  from { opacity: 0; transform: translateX(-50px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+.slide-in {
+  animation: slideIn 0.6s ease-out forwards;
+}
+
+/* Fade in for each skill card */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.5s ease forwards;
+}

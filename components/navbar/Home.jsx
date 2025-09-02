@@ -51,8 +51,8 @@ const Home = () => {
           {/* Download CV Button */}
           <div className="flex justify-center lg:justify-start select-none">
             <a
-              href="/JAWAD CV.pdf"
-              download="JAWAD CV.pdf"
+              href="/JAWAD_CV.pdf"
+              download="JAWAD_CV.pdf"
               className="group inline-flex items-center gap-2 bg-gray-700 text-gray-400 font-semibold px-5 py-1 rounded-3xl text-sm sm:text-base
                hover:text-gray-500 hover:scale-101 transition-all duration-300"
             >

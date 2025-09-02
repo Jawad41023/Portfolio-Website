@@ -30,13 +30,13 @@ const Navbar = () => {
             <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-amber-400 transition-all duration-300 group-hover:w-full"></span>
           </HashLink>
 
-          <HashLink smooth to="/#Projects" className="relative group active:text-gray-500 ">
-            Projects
+          <HashLink smooth to="/#Skills" className="relative group active:text-gray-500">
+            Skills
             <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-amber-400 transition-all duration-300 group-hover:w-full"></span>
           </HashLink>
 
-          <HashLink smooth to="/#Services" className="relative group active:text-gray-500">
-            Services
+          <HashLink smooth to="/#Projects" className="relative group active:text-gray-500 ">
+            Projects
             <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-amber-400 transition-all duration-300 group-hover:w-full"></span>
           </HashLink>
 
@@ -85,8 +85,8 @@ const Navbar = () => {
       >
         <HashLink smooth to="/#Home" className="p-[5px] active:text-amber-400 w-[60%] text-center border-b border-gray-500 pb-1">Home</HashLink>
         <HashLink smooth to="/#Experience" className="p-[5px] active:text-amber-400 w-[60%] text-center border-b border-gray-500 pb-1">Experience</HashLink>
+        <HashLink smooth to="/#Skills" className="p-[5px] active:text-amber-400 w-[60%] text-center border-b border-gray-500 pb-1">Skills</HashLink>
         <HashLink smooth to="/#Projects" className="p-[5px] active:text-amber-400 w-[60%] text-center border-b border-gray-500 pb-1">Projects</HashLink>
-        <HashLink smooth to="/#Services" className="p-[5px] active:text-amber-400 w-[60%] text-center border-b border-gray-500 pb-1">Services</HashLink>
         <HashLink smooth to="/#Aboutus" className="p-[5px] active:text-amber-400 w-[60%] text-center border-b border-gray-500 pb-1">About Us</HashLink>
       </ul>
     </nav>

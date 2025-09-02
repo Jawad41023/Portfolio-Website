@@ -1,14 +1,14 @@
 import React from "react";
 import Experience from "./Experience";
 import Projects from "./Projects";
-import Services from "./Services";
+import Skills from "./Skills";
 import Aboutus from "./Aboutus";
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 
 
 const Home = () => {
-   const [isMobile, setIsMobile] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
     const checkScreen = () => setIsMobile(window.innerWidth < 768); // Tailwind md breakpoint
@@ -19,7 +19,7 @@ const Home = () => {
 
   return (
     <div>
-      
+
       <section
         id="Home"
         className="select-none min-h-screen flex flex-col-reverse lg:flex-row items-center justify-center gap-7 lg:gap-40 
@@ -72,15 +72,15 @@ const Home = () => {
         </div>
 
         {/* Right Image Section */}
-        
-       <motion.div
-        id="jawadpic"
-        className="h-[150px] w-[150px] md:h-[250px] md:w-[250px] bg-cover bg-center rounded-lg"
-        initial={isMobile ? { y: -100, opacity: 0 } : { x: 110, opacity: 0 }}
-        whileInView={{ x: 0, y: 0, opacity: 1 }}
-        viewport={{ once: false, amount: 0.4 }}
-        transition={{ duration: 0.8, ease: "easeOut" }}
-      />
+
+        <motion.div
+          id="jawadpic"
+          className="h-[150px] w-[150px] md:h-[250px] md:w-[250px] bg-cover bg-center rounded-lg"
+          initial={isMobile ? { y: -100, opacity: 0 } : { x: 110, opacity: 0 }}
+          whileInView={{ x: 0, y: 0, opacity: 1 }}
+          viewport={{ once: false, amount: 0.4 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+        />
       </section>
 
 
@@ -89,12 +89,12 @@ const Home = () => {
         <Experience />
       </section>
 
-      <section id="Projects" className="min-h-screen">
-        <Projects />
+      <section id="Skills" className="min-h-screen">
+        <Skills />
       </section>
 
-      <section id="Services" className="min-h-screen">
-        <Services />
+      <section id="Projects" className="min-h-screen">
+        <Projects />
       </section>
 
       <section id="Aboutus" className="min-h-screen">

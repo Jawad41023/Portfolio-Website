@@ -53,7 +53,7 @@ const Home = () => {
             <a
               href="/JAWAD_CV.pdf"
               download="JAWAD_CV.pdf"
-              className="group inline-flex items-center gap-2 bg-gray-700 text-gray-400 font-semibold px-5 py-1 rounded-3xl text-sm sm:text-base
+              className="group inline-flex items-center gap-2 bg-gray-700 text-gray-400 font-semibold px-5 py-2 rounded-3xl text-sm sm:text-base
                hover:text-gray-500 hover:scale-101 transition-all duration-300 active:bg-cyan-800"
             >
               {/* Animated Download Icon */}

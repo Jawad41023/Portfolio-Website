@@ -46,7 +46,6 @@ const Navbar = () => {
           </HashLink>
         </ul>
 
-
         {/* Hamburger */}
         <button
           onClick={() => setIsOpen(!isOpen)}

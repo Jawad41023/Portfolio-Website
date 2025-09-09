@@ -46,9 +46,15 @@ const Experience = () => {
       id="Experience"
       className="min-h-screen flex flex-col items-center bg-gradient-to-r from-slate-100 to-gray-400 md:py-22 py-22 px-4 sm:px-6 lg:px-12"
     >
-      <h2 className="text-3xl sm:text-4xl font-bold mb-12 text-center">
-        Experience
-      </h2>
+     <motion.h2
+             className="text-4xl font-bold mb-10 text-gray-800"
+             initial={{ opacity: 0, y: -30 }}
+             whileInView={{ opacity: 1, y: 0 }}
+             transition={{ duration: 0.6 }}
+           >
+             Experience
+           </motion.h2>
+          
 
       <div className="relative border-l-4 border-amber-400 pl-6  sm:pl-10 w-full max-w-4xl">
         {experiences.map((exp, index) => (

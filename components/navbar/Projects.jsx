@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import React from "react";
 
 const projects = [
@@ -26,9 +27,16 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section id="projects" className="md:py-22 py-22 bg-gray-900 text-white">
-      <div className="container mx-auto px-6">
-        <h2 className="text-4xl font-bold text-center mb-12">My Projects</h2>
+    <section id="projects" className="md:py-22 py-22 bg-gray-900 text-white ">
+      <div className="container mx-auto px-6 flex justify-center items-center flex-col">
+       <motion.h2
+             className="text-4xl font-bold mb-10 text-white"
+             initial={{ opacity: 0, y: -30 }}
+             whileInView={{ opacity: 1, y: 0 }}
+             transition={{ duration: 0.6 }}
+           >
+             Projects
+           </motion.h2>
         <div className="flex flex-wrap justify-center gap-8">
           {projects.map((project, index) => (
             <div

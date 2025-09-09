@@ -22,8 +22,8 @@ const Skills = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-r from-slate-100 to-gray-400 flex flex-col items-center justify-start py-19 px-4 sm:px-6 lg:px-12 slide-in">
-      <h1 className="text-4xl md:text-5xl font-bold mb-12 text-gray-800 text-center">My Skills</h1>
+    <div className="min-h-screen bg-gradient-to-r from-slate-100 to-gray-400 flex flex-col items-center justify-start md:py-22 py-22 px-4 sm:px-6 lg:px-12 slide-in">
+      <h1 className="text-4xl md:text-4xl font-bold mb-12 text-gray-800 text-center">My Skills</h1>
 
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 md:gap-8 w-full max-w-7xl bg-white rounded-3xl">
         {skills.map((skill, index) => (

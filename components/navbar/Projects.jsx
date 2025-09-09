@@ -26,7 +26,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section id="projects" className="py-16 bg-gray-900 text-white">
+    <section id="projects" className="md:py-22 py-22 bg-gray-900 text-white">
       <div className="container mx-auto px-6">
         <h2 className="text-4xl font-bold text-center mb-12">My Projects</h2>
         <div className="flex flex-wrap justify-center gap-8">

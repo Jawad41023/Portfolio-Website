@@ -44,7 +44,7 @@ const Experience = () => {
   return (
     <section
       id="Experience"
-      className="min-h-screen flex flex-col items-center bg-gradient-to-r from-slate-100 to-gray-400 py-19 px-4 sm:px-6 lg:px-12"
+      className="min-h-screen flex flex-col items-center bg-gradient-to-r from-slate-100 to-gray-400 md:py-22 py-22 px-4 sm:px-6 lg:px-12"
     >
       <h2 className="text-3xl sm:text-4xl font-bold mb-12 text-center">
         Experience

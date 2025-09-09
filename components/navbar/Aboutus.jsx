@@ -20,7 +20,7 @@ const About = () => {
       {/* Content Box */}
       <motion.div
         className="bg-white shadow-lg rounded-2xl p-8 max-w-3xl text-center md:text-left"
-        initial={{ opacity: 0, x: 50 }}
+        initial={{ opacity: 0, x: -50 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8 }}
       >

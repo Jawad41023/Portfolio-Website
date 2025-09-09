@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section
       id="Aboutus"
-      className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-slate-100 to-gray-400 py-16 px-6"
+      className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-slate-100 to-gray-400 py-17 px-6"
     >
       {/* Heading */}
       <motion.h2

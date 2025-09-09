@@ -31,7 +31,7 @@ const Footer = () => {
           <a href="mailto:your.email@example.com" target="_blank" rel="noreferrer">
             <Mail className="w-6 h-6 hover:text-amber-400 transition" />
           </a>
-          <a href="tel:+923118156850">
+          <a href="tel:+923085452145">
             <Phone className="w-6 h-6 hover:text-amber-400 transition" />
           </a>
           <a href="https://github.com/Jawad41023" target="_blank" rel="noreferrer">

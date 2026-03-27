@@ -44,13 +44,13 @@ const Experience = () => {
   return (
     <section
       id="Experience"
-      className="min-h-screen flex flex-col items-center bg-gradient-to-r from-slate-100 to-gray-400 md:py-22 py-22 px-4 sm:px-6 lg:px-12"
+      className="min-h-screen flex flex-col items-center bg-gradient-to-r from-slate-100 to-gray-400 md:py-22 py-22 px-4 sm:px-6 lg:px-12 rounded-[90px] mb-3"
     >
      <motion.h2
              className="text-4xl font-bold mb-10 text-gray-800"
              initial={{ opacity: 0, y: -30 }}
              whileInView={{ opacity: 1, y: 0 }}
-             transition={{ duration: 0.6 }}
+             transition={{ duration: 0.9 }}
            >
              Experience
            </motion.h2>
@@ -63,7 +63,7 @@ const Experience = () => {
             className="mb-12 relative"
             initial={{ x: -50, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
-            transition={{ duration: 0.6, delay: index * 0.2 }}
+            transition={{ duration: 0.9, delay: index * 0.2 }}
             viewport={{ once: false, amount: 0.3 }}
           >
             {/* Icon */}

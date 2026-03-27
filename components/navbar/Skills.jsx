@@ -23,12 +23,12 @@ const Skills = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-r from-slate-100 to-gray-400 flex flex-col items-center justify-start md:py-22 py-22 px-4 sm:px-6 lg:px-12 slide-in">
+    <div className="mb-3 rounded-[90px] min-h-screen bg-gradient-to-r from-slate-100 to-gray-400 flex flex-col items-center justify-start md:py-22 py-22 px-4 sm:px-6 lg:px-12 slide-in">
       <motion.h2
              className="text-4xl font-bold mb-10 text-gray-800"
              initial={{ opacity: 0, y: -30 }}
              whileInView={{ opacity: 1, y: 0 }}
-             transition={{ duration: 0.6 }}
+             transition={{ duration: 0.9 }}
            >
              Skills
            </motion.h2>

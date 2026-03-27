@@ -27,30 +27,31 @@ const projects = [
 
 const Projects = () => {
   return (
-   <section id="projects" className="md:py-22 py-22 bg-gray-900 text-white ">
-  <div className="container mx-auto px-6 flex justify-center items-center flex-col">
+   <section id="projects" className="md:py-32 py-32 bg-gradient-to-r from-slate-100 to-gray-400 text-white rounded-[90px] ">
+  <div className="container mb-3 px-6 flex justify-center items-center flex-col ">
+    
     <motion.h2
       className="text-4xl font-bold mb-10 text-white"
-      initial={{ opacity: 0, y: -30 }}
+      initial={{ opacity: 0, y: -50 }}
       whileInView={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.6 }}
+      transition={{ duration: 0.9 }}
     >
       Projects
     </motion.h2>
 
     <div className="flex flex-wrap justify-center gap-8">
+
       {projects.map((project, index) => (
         <motion.div
           key={index}
-          className="bg-gray-800 rounded-2xl p-6 w-full md:w-1/3 shadow-lg hover:scale-105 transition-transform duration-300"
-          initial={{ 
-            x: 50,  // left projects slide from left, right projects from right
-            opacity: 0 
-          }}
-          whileInView={{ x: 0, opacity: 1 }}
-          transition={{ duration: 0.8, ease: "easeOut" }}
-          viewport={{ once: false, amount: 0.3 }} // re-trigger every time when ~30% visible
-        >
+
+          className="bg-gray-800 rounded-2xl p-6 w-full md:w-1/3 shadow-lg"
+         initial={{ x: -50, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            transition={{ duration: 0.9, delay: index * 0.2 }}
+            viewport={{ once: false, amount: 0.3 }}
+    >
+        
           <h3 className="text-2xl font-semibold mb-4">{project.title}</h3>
           <p className="text-gray-300 mb-6">{project.description}</p>
           <div className="flex gap-4">

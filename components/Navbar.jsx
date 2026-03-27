@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
 
 
-    <nav className="fixed select-none h-12 flex justify-between items-center text-gray-400  mt-8 rounded-3xl w-screen md:w-[100%]  z-50 bg-gray-800/70 backdrop-blur-[7px]">
+    <nav className="fixed select-none h-12 flex justify-between items-center text-black text-[22px]  mt-8 rounded-3xl w-screen md:w-[100%]  z-50 bg-gray-800/40 backdrop-blur-[3px]">
       <div className="ml-8">
       {/* Logo */}
       <HashLink id="Logo" smooth to="/#Home" >
@@ -22,27 +22,27 @@ const Navbar = () => {
         <ul className="md:flex hidden gap-8 font-bold ">
           <HashLink smooth to="/#Home" className="relative group active:text-gray-500">
             Home
-            <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-amber-400 transition-all duration-300 group-hover:w-full "></span>
+            <span className="absolute left-0 -bottom-1 w-0 h-[3px] bg-amber-400 transition-all duration-300 group-hover:w-full "></span>
           </HashLink>
 
           <HashLink smooth to="/#Experience" className="relative group active:text-gray-500 ">
             Experience
-            <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-amber-400 transition-all duration-300 group-hover:w-full"></span>
+            <span className="absolute left-0 -bottom-1 w-0 h-[3px] bg-amber-400 transition-all duration-300 group-hover:w-full"></span>
           </HashLink>
 
           <HashLink smooth to="/#Skills" className="relative group active:text-gray-500">
             Skills
-            <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-amber-400 transition-all duration-300 group-hover:w-full"></span>
+            <span className="absolute left-0 -bottom-1 w-0 h-[3px] bg-amber-400 transition-all duration-300 group-hover:w-full"></span>
           </HashLink>
 
           <HashLink smooth to="/#Projects" className="relative group active:text-gray-500 ">
             Projects
-            <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-amber-400 transition-all duration-300 group-hover:w-full"></span>
+            <span className="absolute left-0 -bottom-1 w-0 h-[3px] bg-amber-400 transition-all duration-300 group-hover:w-full"></span>
           </HashLink>
 
           <HashLink smooth to="/#Aboutus" className="relative group active:text-gray-500 ">
             About Us
-            <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-amber-400 transition-all duration-300 group-hover:w-full"></span>
+            <span className="absolute left-0 -bottom-1 w-0 h-[3px] bg-amber-400 transition-all duration-300 group-hover:w-full"></span>
           </HashLink>
         </ul>
 

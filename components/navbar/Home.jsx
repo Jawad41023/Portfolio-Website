@@ -24,7 +24,7 @@ const Home = () => {
         id="Home"
         className="select-none min-h-screen flex flex-col-reverse lg:flex-row items-center justify-center gap-7 lg:gap-40 
              px-6 sm:px-8 md:px-12 bg-gradient-to-r from-slate-100 to-gray-400 
-             pt-30"
+             pt-30 rounded-[90px] mb-3"
       >
         {/* Left Text Section */}
         <div className="w-full lg:w-1/2 text-center lg:text-left">
@@ -78,8 +78,8 @@ const Home = () => {
           className="h-[150px] w-[150px] md:h-[250px] md:w-[250px] bg-cover bg-center rounded-lg"
           initial={isMobile ? { y: -100, opacity: 0 } : { x: 110, opacity: 0 }}
           whileInView={{ x: 0, y: 0, opacity: 1 }}
-          viewport={{ once: false, amount: 0.4 }}
-          transition={{ duration: 0.8, ease: "easeOut" }}
+          viewport={{ once: false, amount: 0.1 }}
+          transition={{ duration: 0.9, ease: "easeOut" }}
         />
       </section>
 

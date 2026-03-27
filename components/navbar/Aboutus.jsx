@@ -5,14 +5,14 @@ const About = () => {
   return (
     <section
       id="Aboutus"
-      className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-slate-100 to-gray-400 py-22 md:py-22 px-6"
+      className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-slate-100 to-gray-400 py- md:py-22 px-6 rounded-[90px] mb-3"
     >
       {/* Heading */}
       <motion.h2
         className="text-4xl font-bold mb-10 text-gray-800"
         initial={{ opacity: 0, y: -30 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6 }}
+        transition={{ duration: 0.9 }}
       >
         About Me
       </motion.h2>
@@ -22,7 +22,7 @@ const About = () => {
         className="bg-white shadow-lg rounded-2xl p-8 max-w-3xl text-center md:text-left"
         initial={{ opacity: 0, x: -50 }}
         whileInView={{ opacity: 1, x: 0 }}
-        transition={{ duration: 0.8 }}
+        transition={{ duration: 0.9 }}
       >
         <p className="text-gray-700 leading-relaxed text-lg mb-4">
           Hi, I’m <span className="font-bold text-amber-500">Jawad Ali</span>, a

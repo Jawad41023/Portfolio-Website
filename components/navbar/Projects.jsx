@@ -31,7 +31,7 @@ const Projects = () => {
   <div className="container mb-3 px-6 flex justify-center items-center flex-col ">
     
     <motion.h2
-      className="text-4xl font-bold mb-10 text-white"
+      className="text-4xl font-bold mb-10 text-black"
       initial={{ opacity: 0, y: -50 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.9 }}

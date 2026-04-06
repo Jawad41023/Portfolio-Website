@@ -7,8 +7,9 @@ const Navbar = () => {
 
   return (
 
-
-    <nav className="fixed select-none h-12 flex justify-between items-center text-black text-[22px]  mt-8 rounded-3xl w-screen md:w-[100%]  z-50 bg-gray-800/40 backdrop-blur-[3px]">
+<div className="flex items-center justify-center">
+    <nav className="fixed select-none h-14 flex justify-between items-center text-black text-[22px]  mt-38 rounded-3xl w-[95%] md:w-[95%]  
+    z-50 bg-gray-800/40 backdrop-blur-[3px]">
       <div className="ml-8">
       {/* Logo */}
       <HashLink id="Logo" smooth to="/#Home" >
@@ -89,6 +90,7 @@ const Navbar = () => {
         <HashLink smooth to="/#Aboutus" className="p-[5px] active:text-amber-400 w-[60%] text-center border-b border-gray-500 pb-1">About Us</HashLink>
       </ul>
     </nav>
+    </div>
   );
 };
 
